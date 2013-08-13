@@ -1,15 +1,28 @@
-{ "name"            : "idx"
-, "description"     : "collection of composable indexes written in javascript"
-, "homepage"        : "http://github.com/dscape/idx"
-, "repository"      :
-  { "type" : "git"
-  , "url" : "http://github.com/dscape/idx.git"
+{
+  "name": "idx",
+  "description": "collection of composable indexes written in javascript",
+  "homepage": "http://github.com/emitdb/idx",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/emitdb/idx.git"
+  },
+  "version": "0.0.2",
+  "author": "Nuno Job <nunojobpinto@gmail.com> (http://nunojob.com)",
+  "keywords": [
+    "index",
+    "indexes",
+    "btree",
+    "nlp",
+    "inverted",
+    "full text",
+    "binary",
+    "search"
+  ],
+  "main": "./idx.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "parentchild": "0.0.0"
   }
-, "version"         : "0.0.1"
-, "author"          : "Nuno Job <nunojobpinto@gmail.com> (http://nunojob.com)"
-, "keywords"        : 
-  [ "index", "indexes", "btree", "nlp", "inverted", "full text", "binary"
-  , "search"]
-, "main"            : "./idx.js"
-, "engines"         : { "node": ">=0.4.0" }
 }
