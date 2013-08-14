@@ -8,5 +8,4 @@ module.exports = function base_idx(cfg, doc) {
     }
   });
   return idxs;
-
 };

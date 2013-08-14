@@ -1,7 +1,7 @@
 var assert = require('assert'),
   idx = require('../../idx'),
   powerset = require('powerset'),
-  parentchild = idx._all_indexers.parentchild;
+  parentchild = idx._indexers.parentchild;
 
 var sampledoc = {
   a: {

@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "rdir": "0.0.1",
-    "powerset": "0.0.1"
+    "powerset": "0.0.1",
+    "rimraf": "~2.2.2"
   }
 }
