@@ -1,5 +1,5 @@
 var assert = require('assert'),
-  idx = require('../idx'),
+  idx = require('../../idx'),
   powerset = require('powerset'),
   parentchild = idx._all_indexers.parentchild;
 
