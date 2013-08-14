@@ -1,5 +1,8 @@
 var levelup = require('levelup'),
-  parentchild = require('parentchild'),
+  indexers = require('require-all')({
+    dirname: __dirname + '/indexers',
+    filter: /(.+)\.js$/,
+  }),
   bytewise = require('bytewise');
 
 function Idx(path, options) {
@@ -51,4 +54,5 @@ module.exports = function (path, options) {
   return new Idx(path, options);
 };
 
+module.exports._all_indexers = indexers;
 module.exports._version = require('./package').version;

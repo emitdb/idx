@@ -22,7 +22,19 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "scripts": {
+    "test": "rdir test"
+  },
   "dependencies": {
-    "parentchild": "0.0.0"
+    "parentchild": "~0.0.0",
+    "require-all": "~0.0.6",
+    "async": "~0.2.9",
+    "bytewise": "~0.5.0",
+    "levelup": "~0.13.0",
+    "leveldown": "~0.7.0"
+  },
+  "devDependencies": {
+    "rdir": "0.0.1",
+    "powerset": "0.0.1"
   }
 }
